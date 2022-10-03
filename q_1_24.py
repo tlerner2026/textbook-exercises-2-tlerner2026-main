@@ -1,4 +1,5 @@
 """
+Tal Lerner
 Python Programming in Context
 Try It Out
 Page 28
@@ -6,33 +7,22 @@ Page 28
 
 from turtle import *
 
-def draw_square(side_length):
-    """Draw a square. If the turtle is pointed to the right when the function is
-    called, then the top right corner of the square will be at the starting
-    location of the turtle. At the end of the function, the turtle will be at
-    the starting position again, pointed in the same direction.
-    
-    `side_length` is the length of each side in pixels"""
-    forward(side_length)
-    right(90)
-    forward(side_length)
-    right(90)
-    forward(side_length)
-    right(90)
-    forward(side_length)
-    right(90)
-
-#################################### 1.24 ######################################
-# Create a new function called draw_rectangle that takes 2 parameters: width and
-# height.
-
 def draw_rectangle(width, height):
     """
-    ADD A DOC STRING HERE! LOOK AT LINES 11-16 FOR AN EXAMPLE!
+    Draw a rectangle. Draw a line going forward from in the direction the pen
+    is facing. Turn right and draw the height. Then, repeat the code again to 
+    complete the rectangle
     """
-    ####### REPLACE THIS WITH YOUR CODE ######
-    pass
+    ############################################
+    forward(width)
+    right(90)
+    forward(height)
+    right(90)
+    forward(width)
+    right(90)
+    forward(height)
+    right(90)
     ##########################################
 
-# This code calls the function you will modify:
+# This code calls the function:
 draw_rectangle(50, 300)

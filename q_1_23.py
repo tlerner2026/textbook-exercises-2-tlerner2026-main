@@ -13,7 +13,7 @@ def draw_half_square(side_length):
     that is longer on the top than the bottom. It will end in the same place and
     position were it started.
     
-    side_length is the basic length of each side.
+    'side_length' is the basic length of each side.
     """
 #draw long side
     forward(2*side_length)

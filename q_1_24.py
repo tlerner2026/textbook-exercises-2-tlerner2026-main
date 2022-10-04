@@ -11,7 +11,7 @@ def draw_rectangle(width, height):
     """
     Draw a rectangle. Draw a line going forward from in the direction the pen
     is facing. Turn right and draw the height. Then, repeat the code again to 
-    complete the rectangle
+    complete the rectangle.
     """
     ############################################
     #forward width

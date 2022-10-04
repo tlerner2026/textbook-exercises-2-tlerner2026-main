@@ -14,12 +14,16 @@ def draw_rectangle(width, height):
     complete the rectangle
     """
     ############################################
+    #forward width
     forward(width)
     right(90)
+    #forward height
     forward(height)
     right(90)
+    #forward width
     forward(width)
     right(90)
+    #forward height
     forward(height)
     right(90)
     ##########################################

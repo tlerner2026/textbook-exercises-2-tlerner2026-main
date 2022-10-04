@@ -15,5 +15,5 @@ def draw_spiral(max_side):
         forward(side_length)
         right(side_length)
 
-# Call your function here:
+# This calls the function:
 draw_spiral(100)

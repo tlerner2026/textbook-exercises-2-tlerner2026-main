@@ -10,7 +10,7 @@ from turtle import *
 def draw_spiral(max_side):
     """
     Draw a spiral. It will draw a line each time a different length
-    and then turn 100 and repeat.
+    and then turn 100 degrees and repeat.
     """
     for side_length in range(1, max_side + 1, 5):
         forward(side_length)
